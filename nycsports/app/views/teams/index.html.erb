@@ -1,0 +1,14 @@
+<h1>Index Teams Page</h1>
+
+<h3>Will this type of page be necessary? Do we want the user to have a page that just lists out NYC Sports teams? They know what they are. Eventually, on the page where a user edits their profile, we should have a checklist where they decide what teams to follow by checking them</h3>
+
+<ul>
+	<% @teams.each do |team| %>
+		<li>
+			<p><%= link_to "#{team['name']}", team_path(team)%></p>
+			<%= link_to 'Edit Team', edit_team_path(team) %>
+			<%= link_to 'Delete Team', team_path(team), method: :delete %> 
+			<br/> <br/>
+		</li>
+	<% end %>
+</ul>

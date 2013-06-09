@@ -1,0 +1,18 @@
+<%= form_for @team do |f| %>
+	<%= f.label :name %>
+	<%= f.text_field :name %> <br/>
+
+	<%= f.label :official_link %>
+	<%= f.text_field :official_link %> <br/>
+
+	<%= f.label :twitter_link %>
+	<%= f.text_field :twitter_link %> <br/>
+
+	<%= f.label :facebook_link %>
+	<%= f.text_field :facebook_link %> <br/>
+
+	<%= f.label :icon_url %>
+	<%= f.text_field :icon_url %> <br/>
+
+	<%= f.submit %>
+<% end %>

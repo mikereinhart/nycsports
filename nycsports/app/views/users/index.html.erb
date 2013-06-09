@@ -1,0 +1,14 @@
+
+<h1>User Index Page</h1>
+<h3>Do we really want a page that lists users? I don't think so. Maybe this is only viewable with a certain authentication?</h3>
+
+<ul>
+	<% @users.each do |user| %>
+		<li>
+			<p><%= link_to "#{user['name']}", user_path(user)%></p>
+			<%= link_to 'Edit User Profile', edit_user_path(user) %>
+			<%= link_to 'Delete User', user_path(user), method: :delete %> 
+			<br/> <br/>
+		</li>
+	<% end %>
+</ul>
