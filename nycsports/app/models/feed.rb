@@ -10,5 +10,7 @@
 #
 
 class Feed < ActiveRecord::Base
-  attr_accessible :feed_url, :name
+  attr_accessible :feed_url, :name, :team_id
+
+  belongs_to :team
 end

@@ -15,14 +15,17 @@ class UsersController <ApplicationController
 
 	def new
 		@user = User.new
+		@teams = Team.all
 	end
 
 	def edit
 		@user = User.find(params[:id])
+		@teams = Team.all
 	end
 
 	def show
 		@user = User.find(params[:id])
+		@teams = Team.all
 	end
 
 	def update

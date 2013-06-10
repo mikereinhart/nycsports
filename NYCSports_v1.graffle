@@ -26,7 +26,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-06-07 21:02:25 +0000</string>
+	<string>2013-06-10 20:41:32 +0000</string>
 	<key>Modifier</key>
 	<string>Michael Reinhart</string>
 	<key>NotesVisible</key>
@@ -113,7 +113,7 @@
 			<key>ColumnSpacing</key>
 			<real>36</real>
 			<key>DisplayScale</key>
-			<string>1 0/72 in = 1 0/72 in</string>
+			<string>1 0/72 in = 1.0000 in</string>
 			<key>GraphicsList</key>
 			<array>
 				<dict>
@@ -1524,7 +1524,7 @@ aggregating teams tweets}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>ExpandedCanvases</key>
 		<array>
 			<dict>
@@ -1541,7 +1541,7 @@ aggregating teams tweets}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{-0, 65}, {1440, 813}}</string>
+		<string>{{-0, 62}, {720, 816}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -1555,7 +1555,7 @@ aggregating teams tweets}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-293, 0}, {1162, 674}}</string>
+		<string>{{0, 0}, {442, 677}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
