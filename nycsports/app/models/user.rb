@@ -11,7 +11,7 @@
 #
 
 class User < ActiveRecord::Base
-  attr_accessible :name, :teams, :password, :email
+  attr_accessible :name, :team_ids, :password, :email
 
   has_and_belongs_to_many :teams
 

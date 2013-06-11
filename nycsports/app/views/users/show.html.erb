@@ -1,12 +1,13 @@
-User Info (Show User)
 
-<p>My Teams:
+<p><%="#{@user.name}"%>'s Feeds: </p>
+<p>
 	<ul>
 		<% @user.teams.each do |team| %>
-			<li>
-				<%= link_to "#{team['name']}", team_path(team) %>
-			</li>
+			<% team.feeds.each do |feed| %>
+				<li>
+					<%= link_to "#{feed['name']}", feed_path(feed) %>
+				</li>
+			<% end %>
 		<% end %>
 	</ul>
 </p>
-
