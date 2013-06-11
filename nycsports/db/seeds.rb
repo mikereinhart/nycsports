@@ -3,8 +3,8 @@ Team.delete_all
 Feed.delete_all
 
 
-u1 = User.create(name: 'Mike', password: 'reinhart')
-u2 = User.create(name: 'Bernard', password: 'doherty')
+u1 = User.create(name: 'Mike', password: 'reinhart', email: 'mike@sample.com')
+u2 = User.create(name: 'Bernard', password: 'doherty', email: 'bernard@sample.com')
 #u3 = User.create(name: '', password: '')
 
 

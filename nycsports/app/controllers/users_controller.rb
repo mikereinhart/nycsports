@@ -7,7 +7,7 @@ class UsersController <ApplicationController
 	def create
 		user = User.new(params['user'])
 		if user.save!
-			redirect_to users_path
+			redirect_to root_path
 		else
 			redirect_to new_user_path
 		end
@@ -16,6 +16,7 @@ class UsersController <ApplicationController
 	def new
 		@user = User.new
 		@teams = Team.all
+		#@session = Session.new
 	end
 
 	def edit
